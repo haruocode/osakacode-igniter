@@ -1,0 +1,34 @@
+{
+  "description": "The CodeIgniter framework",
+  "name": "codeigniter/framework",
+  "type": "project",
+  "homepage": "http://codeigniter.com",
+  "license": "MIT",
+  "support": {
+    "forum": "http://forum.codeigniter.com/",
+    "wiki": "https://github.com/bcit-ci/CodeIgniter/wiki",
+    "irc": "irc://irc.freenode.net/codeigniter",
+    "source": "https://github.com/bcit-ci/CodeIgniter"
+  },
+  "autoload": {
+    "files": [
+      "application/Solid/autoload.php"
+    ]
+  },
+  "require": {
+    "php": ">=5.2.4",
+    "php-di/php-di": "^5.2",
+    "doctrine/cache": "^1.6",
+    "sendgrid/sendgrid": "~4.0",
+    "illuminate/support": "^5.2",
+    "erusev/parsedown": "^1.6",
+    "payjp/payjp-php": "~1.0",
+    "kint-php/kint": "^3.3",
+    "psr/container": "^1.0",
+    "guzzlehttp/guzzle": "^6.5"
+  },
+  "require-dev": {
+    "mikey179/vfsstream": "1.1.*",
+    "kenjis/codeigniter-cli": "^0.1.0"
+  }
+}

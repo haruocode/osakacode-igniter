@@ -1,0 +1,45 @@
+table.tableAdmin {
+    clear: both;
+    margin-top: 6px !important;
+    margin-bottom: 6px !important;
+    max-width: none !important;
+}
+table.tableAdmin>tbody>tr>td{
+    vertical-align: middle;
+}
+table.tableAdmin>tbody>tr>td .fa {
+    font-size: 18px;
+    vertical-align: middle;
+}
+.tableAdmin-info {
+    padding-top: 8px;
+    white-space: nowrap;
+}
+.tableAdmin-paginate {
+    margin: 0;
+    white-space: nowrap;
+    text-align: right;
+}
+.tableAdmin-paginate ul.pagination {
+    margin: 2px 0;
+    white-space: nowrap;
+}
+.tableAdmin-alert {
+    display: none;
+    position: fixed;
+    bottom: 35px;
+    right: 20px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    min-width: 200px;
+    text-align: center;
+}
+.ajax-upload-container {
+
+}
+.ajax-upload-viewer {
+    padding-top: 15px;
+}
+.ajax-upload-viewer img {
+    max-width : 100% !important;
+}
